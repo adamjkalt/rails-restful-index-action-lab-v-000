@@ -4,4 +4,6 @@ class StudentsController < ApplicationController
     @students = Student.all
   end
 
+  get "/students"
+  
 end
