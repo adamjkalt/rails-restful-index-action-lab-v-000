@@ -1,8 +1,7 @@
 class StudentsController < ApplicationController
 
-  get '/students'
+  def index
     @students = Student.all
-    redirect to "/students/index"
   end
 
 end
